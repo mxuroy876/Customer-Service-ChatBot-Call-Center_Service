@@ -1,0 +1,107 @@
+{"intents": [
+        {"tag": "idk",
+         "patterns": [],
+         "responses": ["Im sorry I don't understand. Can you elaborate."],
+         "context_set": "greetings"
+        },
+        {"tag": "basic_greeting",
+         "patterns": ["Hi", "hi", "Is anyone there?","hey", "Hey", "hello", "Hello", "Good day", "Whats up","greetings","Hi there!"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": "greetings"
+        },
+        {"tag": "creole_greeting",
+          "patterns": ["Yo", "Wah Gwaan?", "wah gwaan", "weh yah deal wid", "Weh ya deal wid","Weh yah deal wid"],
+          "responses": ["Me deh ya", "me deh ya", "Me deh ya eno, yuh good?"],
+          "context_set": "creole"
+         },
+         {"tag": "spanish_greeting",
+          "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+          "responses": ["¿Qué pasa?","¿Qué tal?", "¡Hace tiempo que no te veo!", "¿Cómo va tu día?"],
+          "context_set": ""
+         },
+         {"tag": "spanish_name",
+          "patterns": ["¿Cómo se llama (usted)?", "¿Cómo te llamas?"],
+          "responses": ["UTECH Chatbot.", "Chatbot!"],
+          "context_set": ""
+         },
+
+        {"tag": "how_are_you",
+          "patterns": ["How are you","how is it going","how is your day going","are you ok","are you sad","Im good how are you?",
+            "how are you feeling","whats on your mind"],
+          "responses": ["I'm feeling really grateful today. How are you?",
+                        "It's been a pretty good day so far, How are you?",
+                        "You know, thanks for asking, how about you?"],
+          "context_set": "greetings"
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["I am a Chatbot i dont age"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me UTECH Chatbot.", "I'm a Chatbot!"],
+         "context_set": "about"
+        },
+        {"tag": "admissions",
+          "patterns": ["Where do I go when I have admission challenges?", "Based on my circumstance should I reduce workloads?", "How can I add/drop or withdraw from modules?"],
+          "responses": ["Visit the Admissions Department Lab."],
+          "context_set": ""
+         },
+         {"tag": "admisión",
+          "patterns": ["¿A dónde voy cuando tengo problemas de admisión?", "¿Cómo puedo agregar / eliminar o retirar módulos?"],
+          "responses": ["Visite el laboratorio del Departamento de Admisiones."],
+          "context_set": ""
+         },
+
+         {"tag": "adddrop",
+          "patterns": ["How can I add/drop or withdraw from modules?", "When is add drop available?", "How me us add drop", "How to add a module"],
+          "responses": ["Add/Dropping of modules is done on the students portal", "During the first two weeks of school"],
+          "context_set": "add"
+         },
+
+         {"tag": "address",
+          "patterns": ["what is UTECH address?", "University Address", "address for school", "wah utech address", "wah utech address"],
+          "responses": ["237 W.I, 6 Old Hope Rd, Kingston."],
+          "context_set": "address"
+         },
+
+         {"tag": "dirección",
+          "patterns": ["¿Cuál es la dirección UTECH?", "Dirección de la Universidad"],
+          "responses": ["237 W.I, 6 Old Hope Rd, Kingston."],
+          "context_set": ""
+         },
+
+         {"tag": "number",
+          "patterns": ["what is UTECH phone number?", "University number", "Wah utech phone number", "fone number fi utech", "Phone number for school", "Phone number for utech"],
+          "responses": ["(876) 927-1680"],
+          "context_set": "number"
+         },
+
+         {"tag": "financial",
+          "patterns": ["What financial assistance is available at the University?"],
+          "responses": ["The University offers financial assistance through scholarships and grants which is administered through the Financial Aid/Scholarship Office."],
+          "context_set": ""
+         },
+         
+        {"tag": "unwell",
+         "patterns": ["I'm having a rough time lately", "Im not feeling well","I could be better", "I have seen better days","I've been better"
+         ,"I'm sad","Having trouble sleeping","I couldn't sleep last night","Not good","Im angry","I haven't eaten lately","Im heartbroken"],
+         "responses": ["Oh? Is their anything I can do to help?", "I'm sorry to hear that. I hope you know that I'm here for you",
+           "That's understandable with what you've been going through. Do you want to talk about it?"],
+         "context_set": ""
+        },
+        {"tag": "well",
+         "patterns": ["Im doing well thank you", "Im alright, thanks for your concern", "Better today thanks","Im doing better",
+           "Things are looking up for me","Im happy", "Im feeling grateful today","Doing great","There is a lot to be grateful for","I feel good today"],
+         "responses": ["That's so good to hear. What do you want to talk about today?","Great! It's so good to see you again! What can I help you with?",
+           "That's something to be grateful for, what can I do for you?"],
+         "context_set": ""
+        }
+   ]
+}
